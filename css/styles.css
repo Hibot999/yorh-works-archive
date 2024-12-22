@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    color: #333; /* Change the text color if needed */
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    background-color: transparent; /* Remove the background color */
+    border: none; /* Remove any border */
+}
+.header-image {
+    width: 80%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background to the text */
+    padding: 10px;
+}
+
+main {
+    padding-bottom: 2rem; /* Adjust the value as needed */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f8f8f8; /* Optional: Add a background color to the footer */
+    border-top: 1px solid #ddd; /* Optional: Add a top border to the footer */
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item p {
+    padding: 0.5rem;
+}
+.exo-custom-font {
+    font-family: "Exo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.tajawal-extralight {
+    font-family: "Tajawal", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  
+/* Add the fade-in class */
+.fade-in {
+    opacity: 0; /* Start with the image hidden */
+    animation: fadeIn 2s forwards; /* Apply the fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with the image hidden */
+    }
+    to {
+        opacity: 1; /* End with the image fully visible */
+    }
+}
+.slogan {
+    font-family: 'Exo', serif; /* Use your preferred font */
+    font-size: 4rem; /* Make the text much bigger */
+    font-weight: 300;
+    color: #070707;
+    text-align: left; /* Left-justify the text */
+    margin-top: 3rem; /* Add space above the slogan */
+    margin-bottom: 4rem; /* Add space below the slogan */
+    padding-left: 13rem; /* Add some padding to the left if needed */
+    line-height: 1.2; /* Adjust line height to control spacing between lines */
+}
